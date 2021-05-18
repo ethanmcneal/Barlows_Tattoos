@@ -1,4 +1,4 @@
-class DrawingsController < ApplicationController
+class Api::DrawingsController < ApplicationController
   before_action :set_drawing, only: [:show, :update, :destroy]
 
   # GET /drawings

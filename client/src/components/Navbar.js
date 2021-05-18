@@ -17,9 +17,9 @@ const NavBar = () => {
                 About
             </Menu.Item>
             </Link>
-            <Link to='/styled'>
+            <Link to='/tattoos'>
             <Menu.Item >
-                Style Components
+                Tattoos
             </Menu.Item>
             </Link>
         {!user &&    <Menu.Menu position='right'>
