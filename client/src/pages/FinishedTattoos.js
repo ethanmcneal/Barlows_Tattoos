@@ -2,7 +2,10 @@ const FinishedTattoos = (props) => {
     const {tattoo} = props
     return(
          <div>
-          {<h1>{tattoo.title}</h1> }
+          {!tattoo.for_sale && 
+            <div className='image-card'> 
+              <img src={tattoo.media} alt={tattoo.title} />
+            </div>}
         </div>
     )
 }

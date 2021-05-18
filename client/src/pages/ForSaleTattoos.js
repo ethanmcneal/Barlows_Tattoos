@@ -5,6 +5,9 @@ const ForSaleTattoos = (props) => {
           {tattoo.for_sale &&  
             <div className='image-card'> 
               <img src={tattoo.media} alt={tattoo.title} />
+              <div className='price-box'>
+                  ${tattoo.price}
+              </div>
               </div>
             }
        </>
